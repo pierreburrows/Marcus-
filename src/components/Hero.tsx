@@ -70,7 +70,6 @@ export function Hero() {
           tabIndex={-1}
         />
         {reduced ? <img className="mfb-hero__still" src={FILM.still} alt="" /> : null}
-        <div className="mfb-hero__wash" />
       </div>
 
       <div className="mfb-wrap mfb-hero__inner">
